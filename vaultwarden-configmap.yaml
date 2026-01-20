@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vaultwarden-config
+  namespace: bitwarden
+data:
+  DOMAIN: "https://pb.alzubayer.com"
+  SIGNUPS_ALLOWED: "true"
+  SIGNUPS_VERIFY: "true"
+  WEBSOCKET_ENABLED: "true"
+  ALLOW_INVITATIONS: "true"
